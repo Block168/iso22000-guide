@@ -17,6 +17,9 @@ const FooterSection = () => {
         <p className="text-primary-foreground/50 text-xs">
           © {new Date().getFullYear()} — Guide ISO 22000. Tous droits réservés.
         </p>
+        <p className="text-primary-foreground/40 text-xs mt-2">
+          Réalisé par Benkhemis Anas
+        </p>
       </div>
     </footer>
   );
