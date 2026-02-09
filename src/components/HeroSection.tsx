@@ -40,7 +40,7 @@ const HeroSection = () => {
           <Button
             size="lg"
             variant="outline"
-            className="text-lg px-8 py-6 font-semibold border-primary-foreground/30 text-gray-900 hover:bg-primary-foreground/10"
+className="text-lg px-8 py-6 font-semibold border-primary-foreground/30 text-gray-900 hover:bg-primary-foreground/10"
             onClick={() => document.getElementById("etapes")?.scrollIntoView({ behavior: "smooth" })}
           >
             Comment se certifier ?
